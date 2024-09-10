@@ -1,0 +1,11 @@
+#include <studio.h>
+
+int main(){
+
+   Corinthians_Pontos = 25
+   Juiz_Dar_Penalti = 15
+   Resultado_para_nao_cair = Corinthians_Pontos + Juiz_Dar_Penalti;
+   printf("o resultado da soma de %d com %d é igual %d \n", Resultado_para_nao_cair, Corinthians_Pontos, Juiz_Dar_Penalti);
+
+return 0;
+}
