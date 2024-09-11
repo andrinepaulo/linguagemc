@@ -1,7 +1,6 @@
 # include <stdio.h>
 
-int main()
-{
+int main(){
     int ano;
     printf("Digite um ano: \n");
     scanf("%d",&ano);
