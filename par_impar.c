@@ -9,7 +9,8 @@ int main(){
         printf("O número digitado é par\n");
     }
     else{
-        
+           printf("O número digitado é impar\n")
+
     }
     return 0;
 
