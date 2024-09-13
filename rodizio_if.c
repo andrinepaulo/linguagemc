@@ -39,7 +39,7 @@ int main(){
     }
     else{
         printf("Final de placa inexistente\n");
-}
+    }
     return 0;
     
 }
