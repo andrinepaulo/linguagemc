@@ -2,7 +2,7 @@ int maior_valor(int array[], int qtd){
     int maior = array[0];
     int i=1;
     while(i <= qtd-1){
-        if(array[i] > m){
+        if(array[i]) > m{
             maior = array[i];
         }
         i++;

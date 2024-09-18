@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 #include "../lib/maior_menor.h"
 int main(){
  
