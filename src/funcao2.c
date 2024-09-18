@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void mensagem();
+void linha ();
+
+int main (){
+
+    mensagem();
+    linha();
+    
+    return 0;
+
+}
+
+void mensagem(){
+    printf("Palmeiras sem mundial!");
+}
+void linha (){
+    int x = 1;
+    printf("\n");
+    for(x ; x <= 30 ; x++){
+        printf("-");
+    }
+    printf("\n");
+}
