@@ -7,6 +7,7 @@ void alterar(int *ponteiro){
 int main(){
     int valor = 32;
     printf("O valor de variável é %d. O endereço é %p\n", valor, &valor);
-
+    alterar(&valor);
+    printf("O valor de variável é %d. O endereço é %p\n", valor, &valor);
     return 0;
 }
