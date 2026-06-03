@@ -36,4 +36,46 @@ int main(){
     return 0;
 }
 
- ``` 
+
+#### Demonstração de fluxo Multiplo de arquivo .c
+ 
+``` c
+
+#include <stdio.h>
+ 
+int main (){
+    int n;
+    printf("Digite um número inteiro e tecle Enter\n");
+    scanf("%d",&n);
+ 
+    if( n % 2 == 0 ) {
+        printf("O número %d é Par\n",n);
+    }
+ 
+    return 0;
+ 
+}
+```
+ 
+### Estrutura de Repetição For de arquivo .c
+``` c
+
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(){
+    system("clear");
+    int ano;
+    int qtd = 0;
+ 
+    for( ano = 1950 ; ano <= 2026 ; ano++){
+        if( ano % 4 == 0 ){
+            printf("O ano %d é bissexto\n",ano);
+            qtd++;
+        }
+    }
+    printf("======================================\n");
+    printf("A quantidade de anos bissextos é %d\n",qtd);
+    return 0;
+}
+ 
