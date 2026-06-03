@@ -1,0 +1,8 @@
+================ RESUMO DA VENDA ================
+Cliente: joao
+Vendedor: marcos
+Produto: tenis fila
+Valor Original: R$ 400.00
+Valor Final: R$ 460.00
+Forma de Pagamento: Parcelado em 24x de R$ 19.17
+=================================================
